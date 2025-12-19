@@ -43,24 +43,20 @@ export function Testimonials() {
               p-6
             "
           >
-            {/* Aspas */}
             <span className="absolute top-4 right-4 text-green-500 text-4xl opacity-20">
               “
             </span>
 
-            {/* Estrelas */}
             <div className="flex gap-1 mb-4 text-yellow-400">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} size={16} fill="currentColor" />
               ))}
             </div>
 
-            {/* Texto */}
             <p className="text-sm text-zinc-300 leading-relaxed mb-6">
               "{item.text}"
             </p>
 
-            {/* Autor */}
             <div>
               <p className="font-semibold text-white">
                 {item.name}

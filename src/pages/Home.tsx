@@ -10,7 +10,6 @@ export default function Home() {
     <div className="bg-zinc-950 text-white">
       <Header />
 
-      {/* HERO */}
       <Section className="text-center py-24">
         <h1 className="text-5xl font-bold">
           Seu dispositivo{" "}
@@ -33,10 +32,8 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* SERVIÇOS */}
       <Services />
 
-      {/* DEPOIMENTOS */}
       <Testimonials />
 
       <Footer />

@@ -18,7 +18,6 @@ export function Card({ title, description, icon }: CardProps) {
         hover:translate-y-[-2px]
       "
     >
-      {/* Ícone */}
       <div
         className="
           mb-4
@@ -31,18 +30,14 @@ export function Card({ title, description, icon }: CardProps) {
       >
         {icon}
       </div>
-
-      {/* Título */}
       <h4 className="text-lg font-semibold text-white mb-2">
         {title}
       </h4>
 
-      {/* Descrição */}
       <p className="text-sm text-zinc-400 leading-relaxed">
         {description}
       </p>
 
-      {/* Link */}
       <span className="inline-flex items-center gap-1 mt-4 text-sm text-yellow-400 hover:text-yellow-300 transition">
         Ver detalhes →
       </span>
